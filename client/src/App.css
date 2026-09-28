@@ -1,0 +1,46 @@
+.app {
+    min-height: 100vh;
+    padding: 40px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.form-container {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-container input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-container button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container p {
+    margin-top: 20px;
+    font-weight: bold;
+}
